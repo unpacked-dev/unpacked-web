@@ -1,0 +1,60 @@
+* {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.1vw;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.grid-x {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-y {
+    display: flex;
+    flex-direction: column;
+}
+
+h1.welcome-text {
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: -0.1vw;
+    text-align: center;
+}
+
+span.welcome-paragraph {
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+}
+
+.github-banner-button {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 30px;
+    margin-top: 2vw;
+}
+
+.github-banner-button .github-banner-link {
+    color: white;
+    font-size: 3vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.github-logo-img {
+    max-height: 3vw;
+    margin-right: 20px;
+}
+
+.github-logo-container {
+    justify-content: center;
+}
